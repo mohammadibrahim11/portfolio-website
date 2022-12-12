@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #0a192f;
+}
+.navbar-brand {
+  color: #64ffda;
+  font-family: JetBrains Mono;
+}
+.navbar-brand:hover {
+  color: #64ffda;
+}
+.nav-item {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.btn {
+  color: #64ffda;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 0.63rem 1.2rem;
+  font-family: monospace;
+  text-decoration: none;
+  cursor: pointer;
+  transition:  0.25s;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.btn:hover {
+  color: #64ffda;
+  background-color: rgba(235, 228, 228, 0.25);
+  border: 1px solid #64ffda;
+}
+.nav-link{
+    padding:10px;
+    display: inline-block;
+    color: #CCD6F6;
+    transition: all 0.25s;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.nav-link:hover{
+    padding:10px;
+    display: inline-block;
+    color: #64ffda;
+    transition: 0.25s;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.nav-item{
+    margin: 0px 5px;
+}
+.navlink-counter{
+    color: #64ffda;
+    margin-right: 3px;
+}
