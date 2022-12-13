@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "./Nav.css";
 
-const Header = () => {
+const Nav = () => {
   return (
     <div>
-      <nav className="navbar container navbar-expand-lg ">
+      <nav className="navbar ms-5 me-5 navbar-expand-lg ">
         <div className="container-fluid mt-4">
           <Link className="navbar-brand" to="#">
             Navbar
@@ -49,15 +49,18 @@ const Header = () => {
                  Contact
                 </Link>
               </li>
+              <li>
+                <Link>
+                <button className="btn">Resume</button>
+                </Link>
+              </li>
             </ul>
           </div>
-          <div>
-            <button className="btn">Resume</button>
-          </div>
+         
         </div>
       </nav>
     </div>
   );
 };
 
-export default Header;
+export default Nav;

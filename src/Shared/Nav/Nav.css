@@ -4,6 +4,7 @@
 .navbar-brand {
   color: #64ffda;
   font-family: JetBrains Mono;
+  padding-bottom: 10px;
 }
 .navbar-brand:hover {
   color: #64ffda;
@@ -17,7 +18,7 @@
   color: #64ffda;
   border: 1px solid #64ffda;
   border-radius: 4px;
-  padding: 0.63rem 1.2rem;
+  padding: 0.53rem 1.2rem;
   font-family: monospace;
   text-decoration: none;
   cursor: pointer;

@@ -1,0 +1,27 @@
+.about-section {
+  margin-top: 100px;
+  margin-left: 145px;
+}
+
+.about-heading h1 {
+  font-size: 28px;
+  color: #ccd6f6;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px 0px 40px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.about-num {
+  margin-right: 10px;
+  font-weight: 400;
+  color: #64ffda;
+  font-size: 22px;
+  font-family: monospace;
+  bottom: 4px;
+}
+hr {
+  position: relative;
+  bottom: 50px;
+  left: 190px;
+  color: #8892b0;
+}
